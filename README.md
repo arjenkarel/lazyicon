@@ -8,7 +8,9 @@ requires config
 src: the location of the icon font css file
 selector: the CSS selector that triggers the observer
 
+```javascript
 LazyIcon().observe({ 'src': '/include/scss/fontawesome/font-awesome.min.css', 'selector': '.fa' })
+```
 
 ## homepage
 [MarketingTracer](https://www.marketingtracer.com)
