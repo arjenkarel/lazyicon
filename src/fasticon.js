@@ -1,4 +1,4 @@
-const asyncIconFont = () => {
+const LazyIcon = () => {
     let options = {};
 
     const observe = (o) => {
@@ -30,6 +30,3 @@ const asyncIconFont = () => {
 
     return { observe };
 }
-
-
-asyncIconFont().observe({ 'src': '/include/scss/fontawesome/font-awesome.min.css', 'selector': '.fa' })
