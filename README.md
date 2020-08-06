@@ -5,7 +5,9 @@ Lazy loads icons font set when the first icon is in the visible viewport. Uses t
 
 ## usage
 requires config
+
 src: the location of the icon font css file
+
 selector: the CSS selector that triggers the observer
 
 ```javascript
