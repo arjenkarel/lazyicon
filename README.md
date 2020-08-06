@@ -15,10 +15,14 @@ rootMargin: the margin before trigger (150px 0px for example)
 
 ```javascript
 window.addEventListener('load', () => {
-  LazyIcon().observe({ 'src': '/include/scss/fontawesome/font-awesome.min.css', 'selector': '.fa', 'rootMargin': '150px 0px' })
+    LazyIcon().observe({
+        'src': '/include/scss/fontawesome/font-awesome.min.css',
+        'selector': '.fa',
+        'rootMargin': '150px 0px'
+    });
 });
 ```
 
 ## homepage
-[MarketingTracer](https://www.marketingtracer.com)
+[MarketingTracer](https://www.marketingtracer.com)    
 [CoreWebVitals](https://corewebvitals.io)
