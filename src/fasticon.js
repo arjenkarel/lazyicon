@@ -22,7 +22,7 @@ const LazyIcon = () => {
                 sessionStorage[options.selector] = true;
                 observer.disconnect();
             }
-        }, { rootMargin: option.rootMargin });
+        }, { rootMargin: options.rootMargin });
         fas.forEach(fa => {
             observer.observe(fa);
         });
