@@ -3,7 +3,7 @@ const LazyIcon = () => {
 
     const observe = (o) => {
         options = o;
-        (('IntersectionObserver' in window &&! sessionStorage[options.selector]) ? fnIconFontObserver : fnIconIconFontDomLink)();
+        (('IntersectionObserver' in window && !sessionStorage[options.selector]) ? fnIconFontObserver : fnIconIconFontDomLink)();
     }
 
     const fnIconIconFontDomLink = () => {
@@ -22,7 +22,7 @@ const LazyIcon = () => {
                 sessionStorage[options.selector] = true;
                 observer.disconnect();
             }
-        });
+        }, { rootMargin: option.rootMargin });
         fas.forEach(fa => {
             observer.observe(fa);
         });
