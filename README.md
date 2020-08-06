@@ -23,6 +23,5 @@ window.addEventListener('load', () => {
 });
 ```
 
-## homepage
-[MarketingTracer](https://www.marketingtracer.com)    
-[CoreWebVitals](https://corewebvitals.io)
+## homepage and example
+[MarketingTracer](https://www.marketingtracer.com/seo/icon-font-lazy-loading)    
