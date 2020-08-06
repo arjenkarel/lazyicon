@@ -10,7 +10,7 @@ selector: the CSS selector that triggers the observer
 rootMargin: the margin before trigger (150px 0px for example)
 
 ```html
-<script defer src="/path/to/layicon.min.js">
+<script defer src="/path/to/layicon.min.js"></script>
 ```
 
 ```javascript
